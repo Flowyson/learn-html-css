@@ -3,4 +3,6 @@ body {
   background-color: yellow;
   color: rgb(0, 0, 255);
   font-family: Arial, Helvetica, sans-serif;
+  /* font-family 는 글꼴 지정할 때, 순서대로 왼쪽이 없으면 오른쪽으로 차례로 선택됨 */
+  /* 우선순위: 인라인 --> external, embedded는 아래인 거일수록 나중에 결론으로 적용됨. */
 }

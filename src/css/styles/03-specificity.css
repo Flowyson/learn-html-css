@@ -1,0 +1,38 @@
+body* {
+  margin: 0;
+}
+
+body {
+  color: olive;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.ai {
+  background-color: orange !important;
+}
+
+/* body 내부에서 h2 요소 바로 다음에 오는 첫 번째 p 요소만 선택 */
+body h2 + p {
+  background-color: yellow;
+}
+
+body p[class] {
+  background-color: lime;
+}
+
+#ai {
+  background-color: pink;
+}
+
+.ai.copilot {
+  border: 10px dotted blue;
+}
+
+/* 부뫼 요소로부터 해당 속성 값을 상속받음 */
+a {
+  color: inherit;
+}
