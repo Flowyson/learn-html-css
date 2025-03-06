@@ -1,0 +1,20 @@
+.card {
+  width: 332px;
+  height: 84px;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  width: 224px;
+  height: 43px;
+}
+
+.img {
+  width: 28;
+  height: 28;
+}
+
+.item2 {
+  display: ;
+}
