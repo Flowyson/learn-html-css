@@ -1,0 +1,10 @@
+@import '/src/common/modern-reset.css';
+@import '/src/common/theme.css';
+@import '/src/common/a11y.css';
+@import '/src/common/base.css';
+
+.box {
+  display: inline-grid;
+  border: 1px solid gray;
+  border-radius: 10%;
+}
